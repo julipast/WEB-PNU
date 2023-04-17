@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 10px;
+}
+h3{
+  font-size: 20px;
+  margin-bottom: 3px;
+  padding: 5px 20px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  justify-self: end;
+
+
+}
+.item1{
+  background-color: orange;
+}
+.item2{
+  background-color: rgb(222, 13, 166);
+  color: white;
+}
+.item3{
+  background-color: linen;
+}
+p{
+  padding: 10px;
+  font-size: 18px;
+}
+.content{
+  border: 2px solid black; 
+  background-color: rgb(165, 207, 181);
+  
+}
+ .row { 
+  display: grid;
+  padding: 2% 2% 0 2%;
+  column-gap: 2%;
+  row-gap: 4%;
+ } 
+ .row div{
+  display: grid;
+ 
+ }
+
+ @media (max-width: 768px) {
+  .row{  grid-template-columns: repeat(1, 1fr);}
+  }
+@media (min-width: 769px) and (max-width: 992px) { 
+  .row{  grid-template-columns: repeat(2, 1fr);}
+  .row div:last-of-type {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+   } 
+
+@media (min-width: 993px) {
+  .row{  grid-template-columns: repeat(3, 1fr);}
+  }
