@@ -1,0 +1,64 @@
+#top{
+    text-align: center;
+    font-size: 22px;
+  }
+  a[href="index.html"] {
+    font-style: italic;
+  }
+  #content{
+    text-align: center;
+  }
+  
+  li>a:link,
+  li>a:visited{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: 4px ridge black;
+  display: block;
+  width: 200px;
+  margin-bottom: 2px;
+
+  }
+  li>a:hover{
+    background-color: magenta;
+    color: blue;
+  }
+  li>a:active{
+    background-color: yellow;
+    color: magenta;
+  }
+  article{
+    font-size: 120%;
+  }
+  article>h2{
+    font-size: 180%;
+  }
+  article:nth-of-type(1) > p {
+    background-color: lavenderblush;
+    color: darkgreen;
+  }
+  article:nth-of-type(2) > p {
+    background-color: rgb(191, 206, 205);
+        color: rgb(57, 35, 9);
+  }
+  article:nth-of-type(3) > p {
+    background-color: lightskyblue;
+    color: darkmagenta;
+
+  }
+  article:nth-of-type(4) > p {
+    background-color: lemonchiffon;
+    color: darkblue;
+  }
+  article:nth-of-type(5) > p {
+    background-color: lavender;
+    color: darkolivegreen;
+  }
+  a[href="#content"]{
+    font-weight: bold;
+  }
+  a[href="#top"] {
+    text-transform: uppercase;
+  }
