@@ -8,6 +8,10 @@
   #content{
     text-align: center;
   }
+  .frame{
+    border: 1px black solid;
+    text-align: center;
+  }
   
   li>a:link,
   li>a:visited{
@@ -35,26 +39,32 @@
   article>h2{
     font-size: 180%;
   }
-  article:nth-of-type(1) > p {
+  .block1 {
     background-color: lavenderblush;
     color: darkgreen;
+    text-align: justify;
+    
   }
-  article:nth-of-type(2) > p {
+  .block2 {
     background-color: rgb(191, 206, 205);
         color: rgb(57, 35, 9);
+        text-align: justify;
   }
-  article:nth-of-type(3) > p {
+  .block3 {
     background-color: lightskyblue;
     color: darkmagenta;
+    text-align: justify;
 
   }
-  article:nth-of-type(4) > p {
+  .block4 {
     background-color: lemonchiffon;
     color: darkblue;
+    text-align: justify;
   }
-  article:nth-of-type(5) > p {
+  .block5 {
     background-color: lavender;
     color: darkolivegreen;
+    text-align: justify;
   }
   a[href="#content"]{
     font-weight: bold;
