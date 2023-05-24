@@ -11,8 +11,10 @@
     console.log("Names ending with 'n':");
     for (let i=0; i < names.length; i++) {
         if (names[i].toLowerCase().charAt(names[i].length - 1)==='n') {
-           console.log(names[i]);
-          } 
+            SpeakHello.speak(names[i]);
+          } else {
+            SpeakGoodBye.speak(names[i]);
+          }
         }
 })()
 
