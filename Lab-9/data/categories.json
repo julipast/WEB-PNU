@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Category-A",
+      "shortname": "A",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint.",
+      "url": "data/catalog/A.json"
+    },
+    {
+      "id": 2,
+      "name": "Category-B",
+      "shortname": "B",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ratione?",
+      "url": "data/catalog/B.json"
+    },
+    {
+      "id": 3,
+      "name": "Category-C",
+      "shortname": "C",
+      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium.",
+      "url": "data/catalog/C.json"
+    },
+    {
+        "id": 4,
+        "name": "Category-Rand",
+        "shortname": "R",
+        "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium.",
+        "url": "data/catalog/C.json"
+      }
+
+  ]
